@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TONIA HAIR - Premium Luxury Wigs & Virgin Hair | HARE St, London SE18 6LZ, UK</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts & Font Awesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#FEF2F2',
+                            100: '#FEE2E2',
+                            200: '#FECACA',
+                            500: '#EF4444',
+                            600: '#DC2626',
+                            700: '#B91C1C',
+                            800: '#991B1B',
+                            900: '#7F1D1D'
+                        },
+                        dark: {
+                            900: '#0F0F12',
+                            800: '#1A1A22',
+                            700: '#2A2A36'
+                        }
+                    },
+                    fontFamily: {
+                        cinzel: ['Cinzel', 'serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #FFFFFF;
+            color: #0F0F12;
+        }
+        .red-gradient-text {
+            background: linear-gradient(135deg, #EF4444 0%, #B91C1C 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .red-glow {
+            box-shadow: 0 10px 30px -10px rgba(220, 38, 38, 0.25);
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #F3F4F6;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #DC2626;
+            border-radius: 4px;
+        }
+        @media print {
+            body * {
+                visibility: hidden;
+                background: transparent !important;
+                color: #000 !important;
+            }
+            #receipt-modal-content, #receipt-modal-content * {
+                visibility: visible;
+                color: #000 !important;
+            }
+            #receipt-modal-content {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                background: #fff !important;
+                box-shadow: none !important;
+                border: 2px solid #DC2626 !important;
+            }
+            .no-print {
+                display: none !important;
+            }
+        }
+    </style>
+</head>
+<body class="bg-white text-dark-900 font-sans antialiased selection:bg-brand-600 selection:text-white flex flex-col min-h-screen">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-brand-700 text-white text-xs py-2 px-4 text-center font-medium tracking-widest uppercase flex justify-between items-center z-50">
+        <div class="hidden sm:block text-[11px] text-brand-100">
+            <i class="fa-solid fa-location-dot mr-1.5 text-white"></i> HARE St, London SE18 6LZ, UK
+        </div>
+        <div class="mx-auto sm:mx-0 font-bold tracking-wider">
+            ⚡ <span class="underline decoration-white/50 underline-offset-4">TONIA HAIR</span> • Express London Dispatch & Worldwide Shipping
+        </div>
+        <div class="hidden md:flex items-center space-x-3 text-xs text-brand-100">
+            <a href="tel:08134669000" class="hover:text-white transition"><i class="fa-solid fa-phone mr-1"></i> +447830899944</a>
+        </div>
+    </div>
+
+    <!-- Main Navigation Bar -->
+    <nav class="sticky top-0 bg-white/95 backdrop-blur-md z-40 border-b border-gray-100 shadow-sm transition-all">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20 sm:h-24">
+                
+                <!-- BRAND LOGO -->
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="#" class="flex flex-col group">
+                        <span class="font-cinzel text-3xl sm:text-4xl font-black tracking-widest text-brand-700 group-hover:text-brand-600 transition-colors drop-shadow-sm">
+                            TONIA HAIR
+                        </span>
+                        <span class="text-[9px] font-extrabold tracking-[0.35em] text-gray-700 uppercase -mt-1">
+                            HARE St, London SE18 6LZ • UK
+                        </span>
+                    </a>
+                </div>
+
+                <!-- Navigation Links -->
+                <div class="hidden md:flex items-center space-x-8 text-xs font-bold tracking-widest uppercase text-gray-700">
+                    <a href="#catalog" class="hover:text-brand-600 transition">Collection</a>
+                    <a href="#about" class="hover:text-brand-600 transition">Our Standard</a>
+                    <a href="#payment-info" class="hover:text-brand-600 transition">Bank Details</a>
+                    <a href="#contact" class="hover:text-brand-600 transition">Contact</a>
+                </div>
+
+                <!-- Controls: Currency Switcher & Cart -->
+                <div class="flex items-center space-x-3 sm:space-x-4">
+                    
+                    <!-- Search Input Widget -->
+                    <div class="hidden lg:flex items-center bg-gray-50 border border-gray-200 rounded-xl px-3 py-1.5 focus-within:border-brand-600 transition">
+                        <i class="fa-solid fa-magnifying-glass text-gray-400 text-xs mr-2"></i>
+                        <input type="text" id="catalog-search" placeholder="Search wigs..." class="bg-transparent text-xs text-dark-900 focus:outline-none w-28 lg:w-36">
+                    </div>
+
+                    <!-- Currency Switcher -->
+                    <div class="relative">
+                        <div class="flex items-center bg-brand-50 border border-brand-200 rounded-xl px-3 py-2 text-xs font-bold text-brand-700 hover:border-brand-600 transition">
+                            <i class="fa-solid fa-coins mr-1.5 text-brand-600"></i>
+                            <select id="currency-select" class="bg-transparent focus:outline-none cursor-pointer text-brand-800 font-bold">
+                                <option value="NGN">NGN (₦)</option>
+                                <option value="USD">USD ($)</option>
+                                <option value="EUR">EUR (€)</option>
+                                <option value="GBP">GBP (£)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Cart Trigger Button -->
+                    <button id="open-cart-btn" class="relative bg-brand-600 hover:bg-brand-700 text-white px-4 py-2.5 rounded-xl font-bold shadow-md transition flex items-center space-x-2">
+                        <i class="fa-solid fa-bag-shopping text-base"></i>
+                        <span class="hidden sm:inline font-bold text-xs uppercase tracking-wider">Bag</span>
+                        <span id="cart-count-badge" class="bg-white text-brand-700 font-black text-xs w-5 h-5 rounded-full flex items-center justify-center border border-brand-200">0</span>
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Banner -->
+    <section class="relative bg-gradient-to-br from-brand-50 via-white to-red-50 text-dark-900 overflow-hidden py-16 sm:py-24 px-4 sm:px-6 lg:px-8 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            
+            <div class="text-left space-y-6">
+                <div class="inline-flex items-center space-x-2 bg-white border border-brand-200 rounded-full px-4 py-1.5 text-xs font-bold text-brand-700 shadow-sm">
+                    <span class="w-2.5 h-2.5 rounded-full bg-brand-600 animate-ping"></span>
+                    <span class="tracking-widest uppercase">100% Raw Virgin Human Hair</span>
+                </div>
+                
+                <h1 class="font-cinzel text-4xl sm:text-6xl font-black leading-tight text-dark-900">
+                    CROWN YOUR BEAUTY WITH <span class="red-gradient-text block mt-1">TONIA HAIR</span>
+                </h1>
+                
+                <p class="text-gray-600 text-sm sm:text-base leading-relaxed max-w-xl font-normal">
+                    Experience unbeatable luxury with our Bone Straight, Silky Deep Wave, and Customized HD Frontal Wigs. Engineered for supreme luster, natural movement, and long-lasting quality in Ketu, Lagos State.
+                </p>
+
+                <div class="flex flex-wrap gap-4 pt-2">
+                    <a href="#catalog" class="bg-brand-600 hover:bg-brand-700 text-white font-extrabold px-8 py-4 rounded-xl shadow-xl transition transform hover:-translate-y-0.5 text-xs uppercase tracking-widest flex items-center space-x-2 red-glow">
+                        <span>Shop Wig Collection</span>
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </a>
+                    <a href="#payment-info" class="border border-brand-200 bg-white hover:border-brand-600 text-brand-700 font-bold px-6 py-4 rounded-xl transition text-xs uppercase tracking-wider shadow-sm">
+                        Moniepoint Account Info
+                    </a>
+                </div>
+
+                <div class="pt-6 flex flex-wrap gap-6 text-xs text-gray-600 border-t border-gray-200/80">
+                    <div class="flex items-center space-x-2"><i class="fa-solid fa-crown text-brand-600"></i><span class="font-semibold">12A Grade Virgin Hair</span></div>
+                    <div class="flex items-center space-x-2"><i class="fa-solid fa-truck-fast text-brand-600"></i><span class="font-semibold">Fast Lagos & Worldwide Shipping</span></div>
+                </div>
+            </div>
+
+            <!-- Hero Image Showcase -->
+            <div class="relative flex justify-center">
+                <div class="relative w-full max-w-md aspect-[4/5] rounded-3xl overflow-hidden border-4 border-white bg-gray-100 shadow-2xl red-glow">
+                    <img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&q=80&w=800" alt="BoluHair Luxury Wig" class="w-full h-full object-cover object-center transform hover:scale-105 transition duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark-900/80 via-transparent to-transparent"></div>
+                    <div class="absolute bottom-5 left-5 right-5 bg-white/95 backdrop-blur-md p-4 rounded-2xl border border-brand-100 text-dark-900 flex justify-between items-center shadow-lg">
+                        <div>
+                            <p class="text-[10px] text-brand-600 font-black uppercase tracking-widest">TONIA HAIR SIGNATURE</p>
+                            <p class="font-cinzel text-sm font-bold text-dark-900">Bone Straight HD Frontal Unit</p>
+                        </div>
+                        <span class="bg-brand-600 text-white font-extrabold text-xs px-3 py-1.5 rounded-lg uppercase">Raw Hair</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Catalog Section -->
+    <section id="catalog" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 flex-1 w-full">
+        
+        <div class="text-center max-w-3xl mx-auto mb-12">
+            <span class="text-brand-600 font-extrabold text-xs tracking-widest uppercase mb-2 block">TONIA HAIR LUXURY WIG CATALOG</span>
+            <h2 class="font-cinzel text-3xl sm:text-5xl font-extrabold text-dark-900 mb-4">Select Your Crown</h2>
+            <p class="text-gray-600 text-sm sm:text-base font-normal">Choose from our handcrafted virgin hair units. Select lengths, densities, and pay directly via bank transfer.</p>
+            <div class="w-20 h-1 bg-brand-600 mx-auto mt-4 rounded-full"></div>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="flex flex-wrap items-center justify-center gap-2 sm:gap-3 mb-12 text-xs">
+            <button class="filter-btn active bg-brand-600 text-white font-bold px-6 py-3 rounded-xl shadow-md transition uppercase tracking-wider" data-category="all">All Wigs</button>
+            <button class="filter-btn bg-gray-100 text-gray-700 hover:bg-brand-50 hover:text-brand-600 border border-gray-200 font-semibold px-6 py-3 rounded-xl transition uppercase tracking-wider" data-category="bone-straight">Bone Straight</button>
+            <button class="filter-btn bg-gray-100 text-gray-700 hover:bg-brand-50 hover:text-brand-600 border border-gray-200 font-semibold px-6 py-3 rounded-xl transition uppercase tracking-wider" data-category="curly">Curly & Waves</button>
+            <button class="filter-btn bg-gray-100 text-gray-700 hover:bg-brand-50 hover:text-brand-600 border border-gray-200 font-semibold px-6 py-3 rounded-xl transition uppercase tracking-wider" data-category="bob">Bob Units</button>
+            <button class="filter-btn bg-gray-100 text-gray-700 hover:bg-brand-50 hover:text-brand-600 border border-gray-200 font-semibold px-6 py-3 rounded-xl transition uppercase tracking-wider" data-category="hd-lace">HD Lace & Frontals</button>
+        </div>
+
+        <!-- Product Grid -->
+        <div id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 lg:gap-8">
+            <!-- Dynamic Injection via JavaScript -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-brand-50/50 py-16 px-4 sm:px-6 lg:px-8 border-y border-brand-100">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-2xl border border-brand-100 shadow-sm space-y-3 text-center">
+                <div class="w-12 h-12 bg-brand-100 rounded-full flex items-center justify-center text-brand-600 mx-auto text-xl font-bold">
+                    <i class="fa-solid fa-gem"></i>
+                </div>
+                <h3 class="font-cinzel font-bold text-dark-900 text-lg">100% Raw Virgin Hair</h3>
+                <p class="text-xs text-gray-600 leading-relaxed">Directly sourced healthy cuticle-aligned hair strands that can be bleached, dyed, and re-styled repeatedly.</p>
+            </div>
+            
+            <div class="bg-white p-6 rounded-2xl border border-brand-100 shadow-sm space-y-3 text-center">
+                <div class="w-12 h-12 bg-brand-100 rounded-full flex items-center justify-center text-brand-600 mx-auto text-xl font-bold">
+                    <i class="fa-solid fa-building-columns"></i>
+                </div>
+                <h3 class="font-cinzel font-bold text-dark-900 text-lg">Moniepoint Verified Account</h3>
+                <p class="text-xs text-gray-600 leading-relaxed">Shop with absolute trust. Official bank account details (8134669000 - Moniepoint) verified for immediate receipting.</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-2xl border border-brand-100 shadow-sm space-y-3 text-center">
+                <div class="w-12 h-12 bg-brand-100 rounded-full flex items-center justify-center text-brand-600 mx-auto text-xl font-bold">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <h3 class="font-cinzel font-bold text-dark-900 text-lg">Instant WhatsApp Receipts</h3>
+                <p class="text-xs text-gray-600 leading-relaxed">Order details are compiled into a digital receipt and sent straight to our official WhatsApp line for instant dispatch.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bank Payment Details Banner -->
+    <section id="payment-info" class="bg-white py-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+        <div class="max-w-5xl mx-auto bg-gradient-to-r from-brand-600 via-brand-700 to-brand-800 rounded-3xl p-6 sm:p-10 shadow-2xl text-white relative">
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                <div class="space-y-4">
+                    <span class="inline-block bg-white/20 text-white font-extrabold text-xs uppercase tracking-widest px-3.5 py-1.5 rounded-lg border border-white/30 backdrop-blur-sm">
+                        OFFICIAL PAYMENT ACCOUNT
+                    </span>
+                    <h3 class="font-cinzel text-2xl sm:text-3xl font-extrabold">Moniepoint Bank Transfer</h3>
+                    <p class="text-brand-100 text-xs sm:text-sm leading-relaxed font-normal">
+                        To place your order at <strong class="text-white">TONIA HAIR</strong>, make your transfer to our registered Moniepoint business account. An automated receipt will be generated for instant verification on WhatsApp.
+                    </p>
+                    <div class="flex items-center space-x-2 text-xs text-brand-100 font-medium">
+                        <i class="fa-solid fa-circle-check text-white"></i>
+                        <span> HARE St, London SE18 6LZ• UK</span>
+                    </div>
+                </div>
+
+                <!-- Account Box -->
+                <div class="bg-white text-dark-900 p-6 rounded-2xl space-y-4 shadow-xl border border-brand-100">
+                    <div class="flex justify-between items-center border-b border-gray-100 pb-3">
+                        <span class="text-xs text-gray-500 font-bold uppercase tracking-wider">Bank Name</span>
+                        <span class="font-extrabold text-brand-700 text-sm flex items-center">
+                            <i class="fa-solid fa-building-columns mr-1.5 text-xs"></i> MONIEPOINT
+                        </span>
+                    </div>
+                    <div class="flex justify-between items-center border-b border-gray-100 pb-3">
+                        <span class="text-xs text-gray-500 font-bold uppercase tracking-wider">Account Number</span>
+                        <div class="flex items-center space-x-3">
+                            <span class="font-mono text-2xl font-black text-brand-700 tracking-widest" id="acc-number-text">8134669000</span>
+                            <button onclick="copyAccountNumber()" class="text-xs bg-brand-50 hover:bg-brand-100 text-brand-700 px-3 py-1.5 rounded-lg border border-brand-200 transition font-bold flex items-center space-x-1">
+                                <i class="fa-solid fa-copy"></i>
+                                <span>Copy</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span class="text-xs text-gray-500 font-bold uppercase tracking-wider">Account Name</span>
+                        <span class="font-black text-dark-900 text-sm tracking-wide">OYEDUN OPEOLUWA</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Location & Contact Footer -->
+    <footer id="contact" class="bg-gray-900 text-gray-300 py-16 text-sm border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-10">
+            
+            <div class="space-y-4">
+                <span class="font-cinzel text-3xl font-black text-white tracking-widest block">TONIA HAIR</span>
+                <p class="text-xs text-gray-400 leading-relaxed font-normal">
+                     HARE St, London SE18 6LZ's premier store for authentic double drawn raw virgin human hair wigs, customized HD frontals, and luxury closures. Redefining hair elegance in Lagos State.
+                </p>
+            </div>
+
+            <div class="space-y-3">
+                <h4 class="font-cinzel text-white font-bold text-base border-b border-gray-800 pb-2 tracking-wider">Store Location</h4>
+                <p class="text-xs flex items-start space-x-2.5 text-gray-300">
+                    <i class="fa-solid fa-location-dot text-brand-500 mt-1"></i>
+                    <span><strong>Physical Address:</strong> HARE St, London SE18 6LZ, UK.</span>
+                </p>
+                <p class="text-xs flex items-center space-x-2.5 text-gray-300">
+                    <i class="fa-brands fa-whatsapp text-emerald-400 text-sm"></i>
+                    <span><strong>WhatsApp Orders:</strong> +447830899944</span>
+                </p>
+                <p class="text-xs flex items-center space-x-2.5 text-gray-300">
+                    <i class="fa-solid fa-clock text-brand-500"></i>
+                    <span><strong>Hours:</strong> Mon - Sat: 8:00 AM - 7:00 PM</span>
+                </p>
+            </div>
+
+            <div class="space-y-3">
+                <h4 class="font-cinzel text-white font-bold text-base border-b border-gray-800 pb-2 tracking-wider">Moniepoint Account</h4>
+                <p class="text-xs text-gray-400 leading-relaxed">
+                    Account: <strong class="text-white font-mono">8134669000</strong><br>
+                    Bank: <strong class="text-white">MONIEPOINT</strong><br>
+                    Name: <strong class="text-white">OYEDUN OPEOLUWA</strong>
+                </p>
+                <div class="flex space-x-3 pt-2">
+                    <a href="https://wa.me/447830899944" target="_blank" class="w-9 h-9 rounded-xl bg-gray-800 flex items-center justify-center text-emerald-400 hover:bg-emerald-500 hover:text-white transition"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="tel:447830899944" class="w-9 h-9 rounded-xl bg-gray-800 flex items-center justify-center text-brand-500 hover:bg-brand-600 hover:text-white transition"><i class="fa-solid fa-phone"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 pt-6 border-t border-gray-800 text-center text-xs text-gray-500">
+            &copy; <span id="year"></span> TONIA HAIR. All Rights Reserved. Located in HARE St, London SE18 6LZ, UK.
+        </div>
+    </footer>
+
+    <!-- Slide-Out Cart Overlay & Panel -->
+    <div id="cart-drawer-backdrop" class="fixed inset-0 bg-dark-900/60 backdrop-blur-sm z-50 opacity-0 pointer-events-none transition-opacity duration-300"></div>
+    
+    <aside id="cart-drawer" class="fixed top-0 right-0 h-full w-full max-w-md bg-white border-l border-gray-200 shadow-2xl z-50 transform translate-x-full transition-transform duration-300 ease-in-out flex flex-col">
+        <!-- Cart Header -->
+        <div class="p-5 bg-brand-700 text-white flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <h3 class="font-cinzel text-lg font-bold tracking-wider">Your Shopping Bag</h3>
+            </div>
+            <button id="close-cart-btn" class="text-white/80 hover:text-white text-xl p-1">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+
+        <!-- Cart Items List -->
+        <div id="cart-items-container" class="flex-1 overflow-y-auto p-5 space-y-4 custom-scrollbar">
+            <!-- Dynamic Cart Items Injection -->
+        </div>
+
+        <!-- Cart Footer / Summary -->
+        <div class="p-5 border-t border-gray-100 bg-gray-50 space-y-4">
+            <div class="space-y-1.5 text-xs">
+                <div class="flex justify-between text-gray-600">
+                    <span>Subtotal:</span>
+                    <span id="cart-subtotal" class="font-bold text-dark-900">₦0</span>
+                </div>
+                <div class="flex justify-between text-gray-600">
+                    <span>Delivery (London / UK / Nationwide):</span>
+                    <span class="text-brand-600 font-bold">Calculated at Checkout</span>
+                </div>
+                <div class="flex justify-between text-sm font-black text-dark-900 pt-2 border-t border-gray-200">
+                    <span>Total Amount:</span>
+                    <span id="cart-total" class="text-brand-700 text-lg">₦0</span>
+                </div>
+            </div>
+
+            <button id="proceed-checkout-btn" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-extrabold py-3.5 rounded-xl shadow-lg transition uppercase tracking-widest text-xs flex items-center justify-center space-x-2 disabled:opacity-40 disabled:cursor-not-allowed">
+                <span>Proceed To Transfer Checkout</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+        </div>
+    </aside>
+
+    <!-- Checkout Modal -->
+    <div id="checkout-modal" class="fixed inset-0 bg-dark-900/70 backdrop-blur-md z-50 flex items-center justify-center p-4 opacity-0 pointer-events-none transition-opacity duration-300 overflow-y-auto">
+        <div class="bg-white border border-brand-100 rounded-3xl shadow-2xl w-full max-w-2xl my-8 overflow-hidden transform scale-95 transition-transform duration-300 flex flex-col max-h-[90vh]">
+            
+            <div class="bg-brand-700 text-white p-5 flex justify-between items-center">
+                <div>
+                    <h3 class="font-cinzel text-xl font-bold tracking-wider">TONIA HAIR Transfer Checkout</h3>
+                    <p class="text-xs text-brand-100">Moniepoint Bank Transfer Instructions</p>
+                </div>
+                <button id="close-checkout-btn" class="text-white/80 hover:text-white text-xl">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <div class="p-6 overflow-y-auto space-y-6 custom-scrollbar text-xs">
+                <!-- Payment Account Box -->
+                <div class="bg-brand-50 border border-brand-200 rounded-2xl p-4 space-y-2">
+                    <div class="flex items-center text-brand-700 font-black uppercase tracking-wider">
+                        <i class="fa-solid fa-university mr-2"></i> Vendor Moniepoint Account
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 pt-1 border-t border-brand-200">
+                        <div><span class="text-gray-500">Bank:</span> <strong class="text-dark-900 block">Moniepoint</strong></div>
+                        <div><span class="text-gray-500">Account No:</span> <strong class="text-brand-700 font-mono text-sm block">8134669000</strong></div>
+                        <div><span class="text-gray-500">Account Name:</span> <strong class="text-dark-900 block">OYEDUN OPEOLUWA</strong></div>
+                    </div>
+                </div>
+
+                <!-- Checkout Form -->
+                <form id="checkout-form" class="space-y-4">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block font-bold text-gray-700 uppercase mb-1">Full Name *</label>
+                            <input type="text" id="cust-name" required placeholder="e.g. Blessing Adebayo" class="w-full bg-gray-50 border border-gray-200 rounded-xl p-3 focus:border-brand-600 focus:outline-none text-dark-900 text-xs">
+                        </div>
+                        <div>
+                            <label class="block font-bold text-gray-700 uppercase mb-1">WhatsApp / Phone *</label>
+                            <input type="tel" id="cust-phone" required placeholder="e.g. 08012345678" class="w-full bg-gray-50 border border-gray-200 rounded-xl p-3 focus:border-brand-600 focus:outline-none text-dark-900 text-xs">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block font-bold text-gray-700 uppercase mb-1">Delivery Address *</label>
+                        <input type="text" id="cust-address" required placeholder="Street address, house number" class="w-full bg-gray-50 border border-gray-200 rounded-xl p-3 focus:border-brand-600 focus:outline-none text-dark-900 text-xs">
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block font-bold text-gray-700 uppercase mb-1">City / Location *</label>
+                            <input type="text" id="cust-city" required placeholder="e.g. Ketu, Ikeja, Lekki, Abuja" class="w-full bg-gray-50 border border-gray-200 rounded-xl p-3 focus:border-brand-600 focus:outline-none text-dark-900 text-xs">
+                        </div>
+                        <div>
+                            <label class="block font-bold text-gray-700 uppercase mb-1">Bank / Transfer Ref</label>
+                            <input type="text" id="cust-ref" placeholder="e.g. Moniepoint / First Bank Transfer" class="w-full bg-gray-50 border border-gray-200 rounded-xl p-3 focus:border-brand-600 focus:outline-none text-dark-900 text-xs">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block font-bold text-gray-700 uppercase mb-1">Delivery Notes</label>
+                        <textarea id="cust-notes" rows="2" placeholder="e.g. Please deliver before 2 PM" class="w-full bg-gray-50 border border-gray-200 rounded-xl p-3 focus:border-brand-600 focus:outline-none text-dark-900 text-xs"></textarea>
+                    </div>
+
+                    <div class="border-t border-gray-200 pt-4 flex justify-between items-center text-sm font-bold">
+                        <span>Total Payable:</span>
+                        <span id="checkout-payable-total" class="text-brand-700 text-lg">₦0</span>
+                    </div>
+
+                    <button type="submit" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-extrabold py-4 rounded-xl shadow-lg transition text-xs uppercase tracking-widest flex items-center justify-center space-x-2">
+                        <i class="fa-solid fa-receipt"></i>
+                        <span>Generate Receipt & Forward to WhatsApp</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Digital Receipt Modal -->
+    <div id="receipt-modal" class="fixed inset-0 bg-dark-900/80 backdrop-blur-md z-50 flex items-center justify-center p-4 opacity-0 pointer-events-none transition-opacity duration-300 overflow-y-auto">
+        <div id="receipt-modal-content" class="bg-white rounded-3xl shadow-2xl w-full max-w-xl my-6 overflow-hidden transform scale-95 transition-transform duration-300 border-2 border-brand-600">
+            
+            <!-- Receipt Header -->
+            <div class="bg-brand-700 text-white p-6 text-center relative">
+                <h2 class="font-cinzel text-3xl font-black tracking-widest">TONIA HAIR</h2>
+                <p class="text-xs text-brand-100 mt-1 uppercase tracking-wider font-bold">Official Purchase Order & Invoice</p>
+                <p class="text-[10px] text-brand-200">Ketu, Lagos State • WhatsApp: 08134669000</p>
+                
+                <span class="absolute top-4 right-4 bg-white text-brand-700 text-[9px] font-black px-2.5 py-1 rounded-full uppercase no-print">
+                    TRANSFER PENDING
+                </span>
+            </div>
+
+            <!-- Receipt Body -->
+            <div class="p-6 space-y-6 text-xs text-dark-900">
+                
+                <!-- Order & Date Meta -->
+                <div class="flex justify-between items-center bg-gray-50 p-3 rounded-xl border border-gray-200">
+                    <div>
+                        <span class="text-gray-500 block text-[10px]">Order ID:</span>
+                        <strong id="receipt-order-id" class="text-brand-700 font-mono text-xs">#BH-00000</strong>
+                    </div>
+                    <div class="text-right">
+                        <span class="text-gray-500 block text-[10px]">Date & Time:</span>
+                        <strong id="receipt-date" class="text-dark-900 text-xs">2026-00-00 00:00</strong>
+                    </div>
+                </div>
+
+                <!-- Customer Details -->
+                <div class="space-y-1 border-b border-gray-200 pb-4">
+                    <h4 class="font-bold uppercase text-brand-700 text-[11px] mb-2">Customer & Delivery Details</h4>
+                    <p><strong>Name:</strong> <span id="receipt-cust-name">-</span></p>
+                    <p><strong>Phone:</strong> <span id="receipt-cust-phone">-</span></p>
+                    <p><strong>Delivery Address:</strong> <span id="receipt-cust-address">-</span></p>
+                    <p><strong>Notes:</strong> <span id="receipt-cust-notes" class="text-gray-500">N/A</span></p>
+                </div>
+
+                <!-- Items Table -->
+                <div>
+                    <h4 class="font-bold uppercase text-brand-700 text-[11px] mb-2">Order Items</h4>
+                    <div class="border border-gray-200 rounded-xl overflow-hidden">
+                        <table class="w-full text-left text-xs">
+                            <thead class="bg-gray-100 text-gray-700 uppercase text-[10px]">
+                                <tr>
+                                    <th class="p-2.5">Item Details</th>
+                                    <th class="p-2.5 text-center">Qty</th>
+                                    <th class="p-2.5 text-right">Price</th>
+                                </tr>
+                            </thead>
+                            <tbody id="receipt-items-body" class="divide-y divide-gray-100 bg-white">
+                                <!-- Dynamic Items -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Grand Total & Payment Account -->
+                <div class="bg-brand-50 p-4 rounded-xl border border-brand-200 space-y-2">
+                    <div class="flex justify-between font-bold text-sm text-dark-900">
+                        <span>Total Payable:</span>
+                        <span id="receipt-grand-total" class="text-brand-700 text-base">₦0</span>
+                    </div>
+                    <div class="text-[10px] text-gray-600 border-t border-brand-200 pt-2 space-y-0.5">
+                        <p class="text-dark-900"><strong>Moniepoint Bank Account Details:</strong></p>
+                        <p class="font-mono text-brand-700 font-bold">Moniepoint | 8134669000 | OYEDUN OPEOLUWA</p>
+                    </div>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="space-y-3 pt-2 no-print">
+                    <button id="send-whatsapp-receipt-btn" class="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold py-3.5 rounded-xl shadow-md transition flex items-center justify-center space-x-2 text-xs uppercase tracking-wider">
+                        <i class="fa-brands fa-whatsapp text-base"></i>
+                        <span>Send Receipt to WhatsApp </span>
+                    </button>
+
+                    <div class="flex space-x-3">
+                        <button onclick="window.print()" class="flex-1 bg-white border border-gray-300 hover:border-brand-600 text-gray-700 font-bold py-2.5 rounded-xl text-xs transition flex items-center justify-center space-x-1.5 shadow-sm">
+                            <i class="fa-solid fa-print"></i>
+                            <span>Print Receipt</span>
+                        </button>
+                        <button id="close-receipt-btn" class="flex-1 bg-gray-200 hover:bg-gray-300 text-dark-900 font-bold py-2.5 rounded-xl text-xs transition">
+                            Close
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick View Product Modal -->
+    <div id="quickview-modal" class="fixed inset-0 bg-dark-900/70 backdrop-blur-sm z-50 flex items-center justify-center p-4 opacity-0 pointer-events-none transition-opacity duration-300">
+        <div class="bg-white rounded-3xl shadow-2xl w-full max-w-2xl overflow-hidden transform scale-95 transition-transform duration-300 relative border border-brand-100">
+            <button id="close-quickview-btn" class="absolute top-3 right-3 bg-white text-gray-500 hover:text-dark-900 w-8 h-8 rounded-full flex items-center justify-center z-10 transition shadow border border-gray-200">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="grid grid-cols-1 sm:grid-cols-2">
+                <div class="aspect-square bg-gray-100">
+                    <img id="qv-image" src="" alt="" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6 flex flex-col justify-between space-y-4">
+                    <div class="space-y-3">
+                        <span id="qv-badge" class="inline-block bg-brand-50 text-brand-700 text-[10px] font-extrabold px-3 py-1 rounded-full uppercase tracking-wider border border-brand-200"></span>
+                        <h3 id="qv-title" class="font-cinzel text-xl font-bold text-dark-900"></h3>
+                        <p id="qv-price" class="text-brand-700 font-black text-2xl"></p>
+                        <p id="qv-desc" class="text-xs text-gray-600 leading-relaxed"></p>
+
+                        <!-- Options Selectors -->
+                        <div class="space-y-3 pt-2">
+                            <div>
+                                <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Hair Length</label>
+                                <select id="qv-length" class="w-full bg-gray-50 border border-gray-200 rounded-xl p-2.5 text-xs text-dark-900 focus:border-brand-600 focus:outline-none">
+                                    <option value="12 Inches">12 Inches</option>
+                                    <option value="16 Inches">16 Inches</option>
+                                    <option value="20 Inches" selected>20 Inches</option>
+                                    <option value="24 Inches">24 Inches</option>
+                                    <option value="28 Inches">28 Inches</option>
+                                    <option value="32 Inches">32 Inches</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold text-gray-700 uppercase mb-1">Density</label>
+                                <select id="qv-density" class="w-full bg-gray-50 border border-gray-200 rounded-xl p-2.5 text-xs text-dark-900 focus:border-brand-600 focus:outline-none">
+                                    <option value="180% Density">180% Density</option>
+                                    <option value="200% Density" selected>200% Density</option>
+                                    <option value="250% Density">250% Density</option>
+                                    <option value="300% Density">300% Density</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button id="qv-add-cart-btn" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-extrabold py-3.5 rounded-xl shadow transition text-xs uppercase tracking-widest flex items-center justify-center space-x-2">
+                        <i class="fa-solid fa-cart-plus"></i>
+                        <span>Add Unit To Bag</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating WhatsApp Direct Contact -->
+    <a href="https://wa.me/447830899944?text=Hello%20TONIA HAIR,%20I%20am%20interested%20in%20your%20luxury%20wigs!" target="_blank" class="fixed bottom-6 right-6 bg-emerald-500 hover:bg-emerald-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl z-40 transform hover:scale-110 transition duration-300 group border-2 border-white">
+        <i class="fa-brands fa-whatsapp text-2xl"></i>
+        <span class="absolute right-16 bg-white border border-gray-200 text-gray-800 text-xs font-bold px-3 py-1.5 rounded-xl whitespace-nowrap opacity-0 group-hover:opacity-100 transition duration-300 shadow-md pointer-events-none">Chat With BOLUHAIR</span>
+    </a>
+
+    <!-- Toast Notification -->
+    <div id="toast-notification" class="fixed bottom-6 left-1/2 transform -translate-x-1/2 bg-dark-900 text-white text-xs font-semibold px-6 py-3 rounded-full shadow-2xl z-50 flex items-center space-x-2 opacity-0 pointer-events-none transition-all duration-300 border border-gray-700">
+        <i class="fa-solid fa-circle-check text-brand-500"></i>
+        <span id="toast-msg">Item added to cart!</span>
+    </div>
+
+    <script>
+        // Core Wig Catalog Data (Prices in NGN)
+        const PRODUCTS = [
+            {
+                id: 'bh-01',
+                name: 'Double Drawn Raw Bone Straight Wig',
+                category: 'bone-straight',
+                priceNGN: 185000,
+                badge: 'Signature Best Seller',
+                image: 'https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&q=80&w=600',
+                description: '100% Raw Virgin Hair, silky glass finish, full double drawn ends, zero tangling.'
+            },
+            {
+                id: 'bh-02',
+                name: 'Luxury HD Lace Deep Wave Unit',
+                category: 'curly',
+                priceNGN: 165000,
+                badge: 'Hot Curl Unit',
+                image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&q=80&w=600',
+                description: 'Undetectable HD Swiss lace closure unit with deep, rich water wave bounces.'
+            },
+            {
+                id: 'bh-03',
+                name: 'Invisible 13x4 HD Frontal Straight Wig',
+                category: 'hd-lace',
+                priceNGN: 210000,
+                badge: 'HD Melt Frontal',
+                image: 'https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&q=80&w=600',
+                description: 'Premade HD frontal wig with customized natural hairline. Seamlessly melts into all skin tones.'
+            },
+            {
+                id: 'bh-04',
+                name: 'Blunt Cut Bob Bone Straight HD Wig',
+                category: 'bob',
+                priceNGN: 130000,
+                badge: 'Classy Bob Unit',
+                image: 'https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&q=80&w=600',
+                description: 'Razor-sharp blunt cut bob unit with glass sheen and effortless daily movement.'
+            },
+            {
+                id: 'bh-05',
+                name: 'Super Double Drawn Piano Highlight Wig',
+                category: 'bone-straight',
+                priceNGN: 195000,
+                badge: 'Trending Color',
+                image: 'https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?auto=format&fit=crop&q=80&w=600',
+                description: 'Honey blonde brown highlight combination unit on silky raw virgin hair.'
+            },
+            {
+                id: 'bh-06',
+                name: 'Afro Kinky Curly HD Lace Closure Wig',
+                category: 'curly',
+                priceNGN: 145000,
+                badge: 'Natural Texture',
+                image: 'https://cdn.phototourl.com/member/2026-10-01-b410155d-365c-434d-a741-b2540e66cb82.jpg',
+                description: 'Rich kinky curly unit mimicking blowout texture with light weight and big volume.'
+            },
+            {
+                id: 'bh-07',
+                name: '13x6 HD Swiss Frontal Piece',
+                category: 'hd-lace',
+                priceNGN: 85000,
+                badge: 'Frontal Piece',
+                image: 'https://cdn.phototourl.com/member/2026-10-01-665aa13e-694c-4b39-967a-12f06286e1ee.webp',
+                description: 'Ear-to-ear HD Swiss lace frontal with bleached single knots.'
+            },
+            {
+                id: 'bh-08',
+                name: 'Rich Auburn Body Wave Unit',
+                category: 'curly',
+                priceNGN: 175000,
+                badge: 'Luxury Tint',
+                image: 'https://cdn.phototourl.com/member/2026-10-01-f5660c1b-393e-458f-b952-64198466ffeb.jpg',
+                description: 'Pre-dyed vibrant auburn copper body wave wig with silky retention.'
+            }
+        ];
+
+        // Currency Rates
+        const CURRENCIES = {
+            NGN: { symbol: '₦', rate: 1 },
+            USD: { symbol: '$', rate: 0.000625 },
+            EUR: { symbol: '€', rate: 0.00057 },
+            GBP: { symbol: '£', rate: 0.000476 }
+        };
+
+        // Application State Variables
+        let currentCurrency = 'NGN';
+        let currentCategory = 'all';
+        let searchQuery = '';
+        let cart = [];
+        let selectedQuickViewProduct = null;
+        let activeOrderReceipt = null;
+
+        function formatPrice(amountNGN, currencyCode = currentCurrency) {
+            const curr = CURRENCIES[currencyCode];
+            const converted = amountNGN * curr.rate;
+            if (currencyCode === 'NGN') {
+                return curr.symbol + Math.round(converted).toLocaleString();
+            } else {
+                return curr.symbol + converted.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,');
+            }
+        }
+
+        function renderProducts() {
+            const grid = document.getElementById('product-grid');
+            grid.innerHTML = '';
+
+            let filtered = currentCategory === 'all' 
+                ? PRODUCTS 
+                : PRODUCTS.filter(p => p.category === currentCategory);
+
+            if (searchQuery.trim() !== '') {
+                filtered = filtered.filter(p => p.name.toLowerCase().includes(searchQuery.toLowerCase()) || p.description.toLowerCase().includes(searchQuery.toLowerCase()));
+            }
+
+            if (filtered.length === 0) {
+                grid.innerHTML = `
+                    <div class="col-span-full text-center py-12">
+                        <p class="text-gray-500 font-bold text-sm">No wigs found matching your criteria.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            filtered.forEach(product => {
+                const formattedPrice = formatPrice(product.priceNGN);
+                const card = document.createElement('div');
+                card.className = 'bg-white rounded-3xl overflow-hidden border border-gray-200 hover:border-brand-600 transition-all duration-300 flex flex-col group shadow-sm hover:shadow-xl';
+                
+                card.innerHTML = `
+                    <div class="relative aspect-[4/5] bg-gray-100 overflow-hidden cursor-pointer" onclick="openQuickView('${product.id}')">
+                        <img src="${product.image}" alt="${product.name}" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+                        <span class="absolute top-3 left-3 bg-white/90 backdrop-blur-sm text-brand-700 text-[10px] font-extrabold px-3 py-1 rounded-full uppercase tracking-widest border border-brand-200">
+                            ${product.badge}
+                        </span>
+                        <div class="absolute inset-0 bg-dark-900/30 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                            <span class="bg-brand-600 text-white text-xs font-extrabold px-4 py-2 rounded-xl shadow uppercase tracking-wider">Quick View</span>
+                        </div>
+                    </div>
+                    
+                    <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+                        <div>
+                            <h3 class="font-cinzel font-bold text-dark-900 text-base group-hover:text-brand-700 transition line-clamp-1 cursor-pointer" onclick="openQuickView('${product.id}')">
+                                ${product.name}
+                            </h3>
+                            <p class="text-xs text-gray-500 mt-1 line-clamp-2 font-normal">${product.description}</p>
+                        </div>
+
+                        <div class="pt-3 border-t border-gray-100 flex items-center justify-between">
+                            <div>
+                                <span class="text-[9px] text-gray-400 block font-bold uppercase tracking-wider">Price</span>
+                                <span class="font-black text-brand-700 text-base">${formattedPrice}</span>
+                            </div>
+                            <button onclick="quickAddToCart('${product.id}')" class="bg-brand-50 hover:bg-brand-600 text-brand-700 hover:text-white border border-brand-200 p-3 rounded-xl transition shadow-sm">
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function quickAddToCart(productId) {
+            const product = PRODUCTS.find(p => p.id === productId);
+            if (!product) return;
+
+            addToCart({
+                id: product.id,
+                name: product.name,
+                priceNGN: product.priceNGN,
+                image: product.image,
+                length: '20 Inches',
+                density: '200% Density',
+                quantity: 1
+            });
+        }
+
+        function addToCart(item) {
+            const existingIndex = cart.findIndex(c => 
+                c.id === item.id && c.length === item.length && c.density === item.density
+            );
+
+            if (existingIndex > -1) {
+                cart[existingIndex].quantity += item.quantity;
+            } else {
+                cart.push(item);
+            }
+
+            updateCartUI();
+            showToast(`Added ${item.name} to bag!`);
+        }
+
+        function removeFromCart(index) {
+            cart.splice(index, 1);
+            updateCartUI();
+        }
+
+        function updateQuantity(index, delta) {
+            cart[index].quantity += delta;
+            if (cart[index].quantity <= 0) {
+                cart.splice(index, 1);
+            }
+            updateCartUI();
+        }
+
+        function updateCartUI() {
+            const cartContainer = document.getElementById('cart-items-container');
+            const cartCountBadge = document.getElementById('cart-count-badge');
+            const subtotalEl = document.getElementById('cart-subtotal');
+            const totalEl = document.getElementById('cart-total');
+            const checkoutPayableTotal = document.getElementById('checkout-payable-total');
+            const checkoutBtn = document.getElementById('proceed-checkout-btn');
+
+            const totalItemsCount = cart.reduce((sum, item) => sum + item.quantity, 0);
+            const totalNGN = cart.reduce((sum, item) => sum + (item.priceNGN * item.quantity), 0);
+
+            cartCountBadge.textContent = totalItemsCount;
+
+            if (cart.length === 0) {
+                cartContainer.innerHTML = `
+                    <div class="text-center py-16 space-y-3">
+                        <i class="fa-solid fa-bag-shopping text-4xl text-gray-300"></i>
+                        <p class="text-gray-500 font-bold text-xs">Your BOLUHAIR bag is empty</p>
+                        <button onclick="toggleCart(false)" class="text-xs text-brand-600 font-bold underline uppercase tracking-wider">Browse Collection</button>
+                    </div>
+                `;
+                checkoutBtn.disabled = true;
+            } else {
+                checkoutBtn.disabled = false;
+                cartContainer.innerHTML = cart.map((item, index) => `
+                    <div class="flex items-center space-x-3 p-3 bg-gray-50 rounded-2xl border border-gray-200">
+                        <img src="${item.image}" class="w-16 h-16 object-cover rounded-xl border border-gray-200">
+                        <div class="flex-1 text-xs">
+                            <h4 class="font-bold text-dark-900 line-clamp-1">${item.name}</h4>
+                            <p class="text-gray-500 text-[10px]">${item.length} • ${item.density}</p>
+                            <p class="font-extrabold text-brand-700 mt-1">${formatPrice(item.priceNGN)}</p>
+                        </div>
+                        <div class="flex flex-col items-end space-y-2">
+                            <button onclick="removeFromCart(${index})" class="text-gray-400 hover:text-rose-600 text-xs">
+                                <i class="fa-solid fa-trash-can"></i>
+                            </button>
+                            <div class="flex items-center border border-gray-200 rounded-lg bg-white">
+                                <button onclick="updateQuantity(${index}, -1)" class="px-2 py-0.5 text-gray-500 hover:text-dark-900 font-bold">-</button>
+                                <span class="px-2 font-bold text-xs text-dark-900">${item.quantity}</span>
+                                <button onclick="updateQuantity(${index}, 1)" class="px-2 py-0.5 text-gray-500 hover:text-dark-900 font-bold">+</button>
+                            </div>
+                        </div>
+                    </div>
+                `).join('');
+            }
+
+            subtotalEl.textContent = formatPrice(totalNGN);
+            totalEl.textContent = formatPrice(totalNGN);
+            checkoutPayableTotal.textContent = formatPrice(totalNGN);
+        }
+
+        function toggleCart(show) {
+            const backdrop = document.getElementById('cart-drawer-backdrop');
+            const drawer = document.getElementById('cart-drawer');
+            if (show) {
+                backdrop.classList.remove('opacity-0', 'pointer-events-none');
+                drawer.classList.remove('translate-x-full');
+            } else {
+                backdrop.classList.add('opacity-0', 'pointer-events-none');
+                drawer.classList.add('translate-x-full');
+            }
+        }
+
+        function openQuickView(productId) {
+            selectedQuickViewProduct = PRODUCTS.find(p => p.id === productId);
+            if (!selectedQuickViewProduct) return;
+
+            document.getElementById('qv-image').src = selectedQuickViewProduct.image;
+            document.getElementById('qv-badge').textContent = selectedQuickViewProduct.badge;
+            document.getElementById('qv-title').textContent = selectedQuickViewProduct.name;
+            document.getElementById('qv-price').textContent = formatPrice(selectedQuickViewProduct.priceNGN);
+            document.getElementById('qv-desc').textContent = selectedQuickViewProduct.description;
+
+            const modal = document.getElementById('quickview-modal');
+            modal.classList.remove('opacity-0', 'pointer-events-none');
+            modal.firstElementChild.classList.remove('scale-95');
+        }
+
+        function closeQuickView() {
+            const modal = document.getElementById('quickview-modal');
+            modal.classList.add('opacity-0', 'pointer-events-none');
+            modal.firstElementChild.classList.add('scale-95');
+        }
+
+        function toggleCheckout(show) {
+            const modal = document.getElementById('checkout-modal');
+            if (show) {
+                toggleCart(false);
+                modal.classList.remove('opacity-0', 'pointer-events-none');
+                modal.firstElementChild.classList.remove('scale-95');
+            } else {
+                modal.classList.add('opacity-0', 'pointer-events-none');
+                modal.firstElementChild.classList.add('scale-95');
+            }
+        }
+
+        function handleCheckoutSubmit(e) {
+            e.preventDefault();
+
+            if (cart.length === 0) {
+                showToast('Your bag is empty!');
+                return;
+            }
+
+            const name = document.getElementById('cust-name').value;
+            const phone = document.getElementById('cust-phone').value;
+            const address = document.getElementById('cust-address').value;
+            const city = document.getElementById('cust-city').value;
+            const ref = document.getElementById('cust-ref').value || 'Bank Transfer';
+            const notes = document.getElementById('cust-notes').value || 'None';
+
+            const orderId = '#BH-' + Math.floor(10000 + Math.random() * 90000);
+            const now = new Date();
+            const timestamp = now.toLocaleDateString() + ' ' + now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+
+            const totalNGN = cart.reduce((sum, item) => sum + (item.priceNGN * item.quantity), 0);
+
+            activeOrderReceipt = {
+                orderId,
+                timestamp,
+                customer: { name, phone, address, city, ref, notes },
+                items: [...cart],
+                totalNGN,
+                currencyCode: currentCurrency
+            };
+
+            // Populate Digital Receipt Modal
+            document.getElementById('receipt-order-id').textContent = orderId;
+            document.getElementById('receipt-date').textContent = timestamp;
+            document.getElementById('receipt-cust-name').textContent = name;
+            document.getElementById('receipt-cust-phone').textContent = phone;
+            document.getElementById('receipt-cust-address').textContent = `${address}, ${city}`;
+            document.getElementById('receipt-cust-notes').textContent = notes;
+            document.getElementById('receipt-grand-total').textContent = formatPrice(totalNGN, currentCurrency);
+
+            const receiptBody = document.getElementById('receipt-items-body');
+            receiptBody.innerHTML = cart.map(item => `
+                <tr>
+                    <td class="p-2.5">
+                        <div class="font-bold text-dark-900">${item.name}</div>
+                        <div class="text-[10px] text-gray-500">${item.length} • ${item.density}</div>
+                    </td>
+                    <td class="p-2.5 text-center font-bold text-dark-900">${item.quantity}</td>
+                    <td class="p-2.5 text-right font-extrabold text-brand-700">${formatPrice(item.priceNGN * item.quantity, currentCurrency)}</td>
+                </tr>
+            `).join('');
+
+            toggleCheckout(false);
+            openReceiptModal();
+            
+            // Clear Cart
+            cart = [];
+            updateCartUI();
+        }
+
+        function openReceiptModal() {
+            const modal = document.getElementById('receipt-modal');
+            modal.classList.remove('opacity-0', 'pointer-events-none');
+            modal.firstElementChild.classList.remove('scale-95');
+        }
+
+        function closeReceiptModal() {
+            const modal = document.getElementById('receipt-modal');
+            modal.classList.add('opacity-0', 'pointer-events-none');
+            modal.firstElementChild.classList.add('scale-95');
+        }
+
+        function sendWhatsAppReceipt() {
+            if (!activeOrderReceipt) return;
+
+            const rec = activeOrderReceipt;
+            const formattedTotal = formatPrice(rec.totalNGN, rec.currencyCode);
+
+            let msg = `*NEW ORDER RECEIPT - BOLUHAIR*\n`;
+            msg += `==============================\n`;
+            msg += `*Order ID:* ${rec.orderId}\n`;
+            msg += `*Date:* ${rec.timestamp}\n\n`;
+            
+            msg += `*CUSTOMER DETAILS:*\n`;
+            msg += `👤 *Name:* ${rec.customer.name}\n`;
+            msg += `📞 *Phone:* ${rec.customer.phone}\n`;
+            msg += `📍 *Delivery Address:* ${rec.customer.address}, ${rec.customer.city}\n`;
+            msg += `📝 *Notes:* ${rec.customer.notes}\n\n`;
+
+            msg += `*ORDER ITEMS:*\n`;
+            rec.items.forEach((item, i) => {
+                const itemTotal = formatPrice(item.priceNGN * item.quantity, rec.currencyCode);
+                msg += `${i + 1}. *${item.name}*\n   Specs: ${item.length} | ${item.density}\n   Qty: ${item.quantity} x ${formatPrice(item.priceNGN, rec.currencyCode)} = ${itemTotal}\n`;
+            });
+
+            msg += `\n==============================\n`;
+            msg += `💰 *TOTAL PAYABLE:* ${formattedTotal}\n`;
+            msg += `🏦 *PAYMENT METHOD:* Moniepoint Bank Transfer\n`;
+            msg += `📌 *BANK DETAILS:* Moniepoint | 8134669000 | OYEDUN OPEOLUWA\n`;
+            msg += `==============================\n`;
+            msg += `I have initiated payment to Moniepoint for this order. Please verify and dispatch!`;
+
+            const encoded = encodeURIComponent(msg);
+            window.open(`https://wa.me/2348134669000?text=${encoded}`, '_blank');
+        }
+
+        function showToast(message) {
+            const toast = document.getElementById('toast-notification');
+            const msgEl = document.getElementById('toast-msg');
+            msgEl.textContent = message;
+
+            toast.classList.remove('opacity-0', 'pointer-events-none');
+            setTimeout(() => {
+                toast.classList.add('opacity-0', 'pointer-events-none');
+            }, 3000);
+        }
+
+        function copyAccountNumber() {
+            const accNum = '8134669000';
+            const tempInput = document.createElement('input');
+            tempInput.value = accNum;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempInput);
+            showToast('Moniepoint Account 8134669000 Copied!');
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            document.getElementById('year').textContent = new Date().getFullYear();
+
+            renderProducts();
+
+            // Search Filter
+            const searchInput = document.getElementById('catalog-search');
+            if (searchInput) {
+                searchInput.addEventListener('input', (e) => {
+                    searchQuery = e.target.value;
+                    renderProducts();
+                });
+            }
+
+            // Currency Selector Event
+            const currencySelect = document.getElementById('currency-select');
+            currencySelect.addEventListener('change', (e) => {
+                currentCurrency = e.target.value;
+                renderProducts();
+                updateCartUI();
+                if (selectedQuickViewProduct) {
+                    document.getElementById('qv-price').textContent = formatPrice(selectedQuickViewProduct.priceNGN);
+                }
+                showToast(`Currency set to ${currentCurrency}`);
+            });
+
+            // Filter Tabs Events
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    filterBtns.forEach(b => {
+                        b.classList.remove('bg-brand-600', 'text-white');
+                        b.classList.add('bg-gray-100', 'text-gray-700');
+                    });
+                    btn.classList.remove('bg-gray-100', 'text-gray-700');
+                    btn.classList.add('bg-brand-600', 'text-white');
+
+                    currentCategory = btn.dataset.category;
+                    renderProducts();
+                });
+            });
+
+            // Cart Controls
+            document.getElementById('open-cart-btn').addEventListener('click', () => toggleCart(true));
+            document.getElementById('close-cart-btn').addEventListener('click', () => toggleCart(false));
+            document.getElementById('cart-drawer-backdrop').addEventListener('click', () => toggleCart(false));
+
+            // Quickview Modal Controls
+            document.getElementById('close-quickview-btn').addEventListener('click', closeQuickView);
+            document.getElementById('qv-add-cart-btn').addEventListener('click', () => {
+                if (!selectedQuickViewProduct) return;
+                const length = document.getElementById('qv-length').value;
+                const density = document.getElementById('qv-density').value;
+
+                addToCart({
+                    id: selectedQuickViewProduct.id,
+                    name: selectedQuickViewProduct.name,
+                    priceNGN: selectedQuickViewProduct.priceNGN,
+                    image: selectedQuickViewProduct.image,
+                    length,
+                    density,
+                    quantity: 1
+                });
+                closeQuickView();
+            });
+
+            // Checkout & Receipt Controls
+            document.getElementById('proceed-checkout-btn').addEventListener('click', () => toggleCheckout(true));
+            document.getElementById('close-checkout-btn').addEventListener('click', () => toggleCheckout(false));
+            document.getElementById('checkout-form').addEventListener('submit', handleCheckoutSubmit);
+
+            document.getElementById('close-receipt-btn').addEventListener('click', closeReceiptModal);
+            document.getElementById('send-whatsapp-receipt-btn').addEventListener('click', sendWhatsAppReceipt);
+        });
+    </script>
+</body>
+</html>
